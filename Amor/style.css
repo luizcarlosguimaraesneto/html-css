@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+* {
+
+}
+
+h1 {
+
+    font-family: "Allura";
+    color: #070707;
+    height: 245px;
+    width: 300px;
+    border-width: 10px;
+    margin: auto;
+    
+}
+
+
+h2 {
+
+    font-family: "Allura";
+    font-size: 39px;
+    text-align: left;
+    font-weight: 400;
+    color: #8F2318;
+
+
+
+.navega {
+
+    padding-bottom: 10px;
+
+
+}
+
+
+
+
+
+
+}
+
+
+a {
+    height: 10px;
+    width: 20px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #4a0d20;
+    background-image: linear-gradient(135deg,#4a0d20, #8f1d3e, #E96A78);
+    color: white;
+    padding: 1px 63px 14px 44px;
+    border-radius: 6px;
+
+    
+
+
+.nav {
+
+    color: #070707;
+    background-color: #070707;
+
+        
+
+}
+
+
+}
+
+       
+        
+
+
+body {
+
+   
+    background-image: linear-gradient(135deg,#4a0d20, #8f1d3e, #E96A78);
+    margin: auto;
+   
+}
+
+main {
+
+        background-color: #fef9f5;
+        color: #43252A;
+        border-radius: 7px;
+        width: 1025px;
+        padding: 2em;
+        margin: auto;
+        border: 10px black 2em;
+        min-width: 804px;
+        m
+}
+
+.primeiro {
+
+    font-family: "Allura";
+    font-weight: 600;
+    font-size: 50px;
+    font-display: auto;
+    text-align: center;
+    color: #8F2318;
+    margin-bottom: 70px
+
+
+}
+
+p {
+
+    font-family: "Niconne";
+    font-size: 23px;
+    font-weight: 200;
+    line-height: 1.7;
+    
+}
+
+header {
+
+    height: 180px;
+    background-image: linear-gradient(4deg,#4a0d20, #8f1d3e, #E96A78);
+    margin-bottom: 90px;
+    padding: 50px;
+    
+
+
+}
+
+.Autor {
+
+    margin: 10px 10px 80px 10px;
+    height: 3px;
+    width: 530px;
+    color: #ffefed;
+    background-color: white;
+}
+
+#pr {
+    font-size: 16px;
+
+
+}
+
+.titulo_header {
+    text-align: right;
+    font-size: 129px;
+    margin: initial;
+    height: 143px;
+    width: 384px;
+    font-family: "Allura";
+    color: #fef9f5;
+    
+
+}
+
+
+
+
+nav {
+
+    width: auto;
+    height: 38px;
+    background-color: #f0f0f0;
+    padding-top: 9px;
+}
+
+
+footer {
+
+    width: auto;
+    height: 200px;
+    background-color: #40292C;
+    
+}
+
+section#declaração {
+
+    width: 700px;
+    height: 700px;
+}
+
+section > article {
+
+    border-radius: 22px;
+}
+
+nav > a {
+
+    text-decoration: none;
+    font-weight: bold;
+}
+    
+img {
+    height: 300px;
+    
+}

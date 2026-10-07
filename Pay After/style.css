@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    
+}
+
+:root {
+    --cor01: #47BDFF;
+    --cor02: #0285e8;
+    --cor03: #003b80;
+    --degrade: 30deg #47BDFF, #0285e8, #003b80;
+
+
+    --font-principal: "stack";
+    --tamanho-h1: 26px;
+    --font-p: "Inter"
+
+}
+
+
+
+header{
+    background-color: white;
+    color: var(--cor01);
+    background-image: linear-gradient(352deg, #47BDFF 25%, #0285e8 35%, #003b80);
+    padding: 7px 21px 11px 20px;
+}
+
+body {
+
+    color: white;
+    font: bold 16px san-serif 
+}
+
+main {
+
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: auto;
+    padding: 2em;
+    margin: auto;
+    border: 10px black 2em;
+    min-width: 320px;
+    max-width: 1000px;
+    
+
+}
+
+img {
+    width: 100%;
+
+    
+}
+
+
+h1 {
+    color: var(--cor02);
+    font-family: "stack";
+    font-weight: bold;
+    font-size: var(--tamanho-h1);
+    height: 220px;
+    width: 200px;
+    border-radius: 22px;
+
+}
+
+.principal {
+
+    text-align: left;
+    font-weight: 300;
+    font-size: 70px;
+    padding: 10px 10px 0px 65px;
+    font-family: var(--font-principal);
+    color: white;
+
+
+
+}
+
+header > nav {
+
+    padding-top: 22px;
+    margin: -80px 45px 40px -1px;
+    min-height: 15opx;
+    
+    
+}
+
+
+nav {
+
+    background-color: var(--cor03);
+    padding: 10px;
+    margin: -60px 0px -7px -4px
+}
+
+
+nav a {
+
+    background-image: linear-gradient(#47BDFF, #0285e8, #003b80);
+    color: white;
+    text-decoration: none;
+    padding: 5px 11px 6px 24px;
+    border-radius: 4px;
+
+}
+
+
+
+h2 {
+    color: #144D47;
+    font-family:'SF Pro Regular';
+    font-size: 21px;
+
+}
+
+
+.form {
+
+    background-color: rgb(8, 152, 230);
+    border-radius: 3px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    color: white;
+}
+
+
+p{
+    font-family: var(--font-principal)
+    text-align: left;
+    font-weight:normal;
+    color: #003b80;
+    font-weight: 400;
+
+    
+
+
+}
+
+.navegation {
+    width: 100%;
+    padding: 7px 21px 11px 20px;
+    background-image: linear-gradient(var(--degrade));
+    margin-right: 10px;
+    color: #ffffff;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+
+
+#pedidos {
+    background-color: #F7F7F7;
+    height: 350px;
+}
+
+
+div:hover {
+
+    background-color: yellow;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    text-align: center;
+
+}
+
+ 
+
+a:hover {
+    color: white;
+    transition-duration: 2s;
+    background-color: rgb(252, 6, 6);
+ }
+
+
+ 
